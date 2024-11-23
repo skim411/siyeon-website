@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navBar">
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#project">Project</a> |
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1 class="title">Hello, I'm Siyeon Kim</h1>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1 class="about-title">ABOUT ME</h1>
+        <div class="soft-skill-container">
+            <img class="soft-skill" src="resource/working.png" alt="Working Icon">
+            <img class="soft-skill" src="resource/group-chat.png" alt="Team work Icon">
+            <img class="soft-skill" src="resource/time.png" alt="Time Management Icon">
+            <img class="soft-skill" src="resource/idea.png" alt="Idea Icon">
+        </div>
+        <div class="profile-container">
+            <img class="profile" src="resource/selfie.JPG" alt="Profile Photo">
+            <div class="description">
+                <p>I'm a third-year Software Engineering student at the University of Auckland.</p>
+                <p>I am passionate about learning and dedicated to developing my skills.</p>
+                <p>I always put in the effort to achieve my goals.</p>
+            </div>
+        </div>
+        <div class="skills-container">
+            <div class="skill"><span>Java</span>
+                <div class="bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill"><span>HTML</span>
+                <div class="bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill"><span>JavaFX</span>
+                <div class="bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill"><span>MySQL</span>
+                <div class="bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill"><span>CSS</span>
+                <div class="bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill"><span>C</span>
+                <div class="bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="skill"><span>MATLAB</span>
+                <div class="bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="skill"><span>JS</span>
+                <div class="bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="project">
+        <h1 class="project-title">PROJECT</h1>
+        <div class="proj-container">
+            <div class="proj-item"><img class="proj-img" src="resource/insurance.png">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Insurance System</h3>
+                        <p>Java</p><a href="https://github.com/skim411/Orac" class="learn-more" target="_blank">Learn
+                            More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="proj-item"><img class="proj-img" src="resource/morra.png">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Morra Game</h3>
+                        <p>Java</p><a href="https://github.com/skim411/Orac" class="learn-more" target="_blank">Learn
+                            More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="proj-item"><img class="proj-img" src="resource/escaipeRoom.png">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Escape Room Game</h3>
+                        <p>Java / JavaFX</p><a
+                            href="https://github.com/SOFTENG206-2023/escaipe-room-beta-and-final-team-31"
+                            class="learn-more" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="proj-item"><img class="proj-img" src="resource/orac.png">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>ORAC Mini Game Platform</h3>
+                        <p>HTML / CSS / JavaScript</p><a href="https://github.com/skim411/Orac" class="learn-more"
+                            target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="proj-item"><img class="proj-img" src="resource/spaceZoo.png">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Space Zoo</h3>
+                        <p>Next.js / React / CSS</p><a href="https://github.com/Bobsters6666/SpaceZoo"
+                            class="learn-more" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="proj-item"><img class="proj-img" src="resource/lavs.png">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>LAVS</h3>
+                        <p>Java / JavaFX</p><a href="https://github.com/The-University-of-Auckland/project-01-team-22"
+                            class="learn-more" target="_blank">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1 class="contact-title">CONTACT</h1>
+        <p class="contact-description">Have a question or want to work together?</p>
+        <div class="contact-form">
+            <form id="contactForm" action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/siyeonkim612/" target="_blank">
+                <img src="resource/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/siyeon._.kim" target="_blank">
+                <img src="resource/instagram.png" alt="Instagram">
+            </a>
+            <a href="mailto:joannakim0612@gmail.com">
+                <img src="resource/gmail-logo.png" alt="Email">
+            </a>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                message: document.getElementById('message').value
+            };
+
+            fetch('http://localhost:3000/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+                .then(response => response.text())
+                .then(data => {
+                    alert('Message sent successfully!');
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        });
+    </script>
+</body>
+
+</html>
